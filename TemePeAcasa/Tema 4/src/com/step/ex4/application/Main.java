@@ -16,18 +16,17 @@ package com.step.ex4.application;
 import java.util.Scanner;
 import com.step.ex4.comparator.NumbersComparator;
 
-
 public class Main {
 
     public static void main(String[] args) {
 
 
-        Scanner sc = new Scanner(System.in);
+        Scanner compar = new Scanner(System.in);
 
         System.out.println("Introdu a: ");
-        int numb1 = sc.nextInt();
+        int numb1 = compar.nextInt();
         System.out.println("Introdu b: ");
-        int numb2 = sc.nextInt();
+        int numb2 = compar.nextInt();
 
         NumbersComparator NC = new NumbersComparator();
         System.out.println("MAximul: "+NC.maxim(numb1,numb2));
