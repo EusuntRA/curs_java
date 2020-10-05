@@ -20,12 +20,11 @@ public class Main {
 
         Scanner compar = new Scanner(System.in);
         System.out.println("Introdu primul numar: ");
-        int numb1 = compar.nextInt();1
+        int numb1 = compar.nextInt();
         System.out.println("Introdu al doilea numar: ");
         int numb2 = compar.nextInt();
 
-        NumbersComparator NumbCompar = new NumbersComparator();
-        System.out.println("Maximul: "+NumbCompar.maxim(numb1,numb2));
-        System.out.println("Minimul: "+NumbCompar.minim(numb1,numb2));
+        System.out.println("Maximul: "+NumbersComparator.maxim(numb1,numb2));
+        System.out.println("Minimul: "+NumbersComparator.minim(numb1,numb2));
     }
 }
