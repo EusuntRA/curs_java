@@ -25,10 +25,10 @@ public class Main {
         double numb2 = num2.nextDouble();
 
         Calculator calculeaza = new Calculator();
-        System.out.println(numb1 + " + "+ numb2 + " = " + sum (numb1,numb2));
-        System.out.println(numb1 + " - "+ numb2 + " = " + min (numb1,numb2));
-        System.out.println(numb1 + " * "+ numb2 + " = " + multiple (numb1,numb2));
-        System.out.println(numb1 + " / "+ numb2 + " = " + divide (numb1,numb2));
+        System.out.println(numb1 + " + "+ numb2 + " = " + calculeaza.suma(numb1,numb2));
+        System.out.println(numb1 + " - "+ numb2 + " = " + calculeaza.scad(numb1,numb2));
+        System.out.println(numb1 + " * "+ numb2 + " = " + calculeaza.multiple(numb1,numb2));
+        System.out.println(numb1 + " / "+ numb2 + " = " + calculeaza.divide(numb1,numb2));
     }
 
 }

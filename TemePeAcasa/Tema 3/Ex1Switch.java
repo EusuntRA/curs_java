@@ -18,16 +18,16 @@ public class Ex1Switch {
 			  System.out.println("litera " + litera + " e o vocala");
 			  break;
 			case 'e':
-			  System.out.println("Tuesday");
+			  System.out.println("litera " + litera + " e o vocala");
 			  break;
 			case 'i':
-			  System.out.println("Wednesday");
+			  System.out.println("litera " + litera + " e o vocala");
 			  break;
 			case 'o':
-			  System.out.println("Thursday");
+			  System.out.println("litera " + litera + " e o vocala");
 			  break;
 			case 'u':
-			  System.out.println("Friday");
+			  System.out.println("litera " + litera + " e o vocala");
 			  break;
 			default:
 			  System.out.println("litera " + litera + " e o consoana");

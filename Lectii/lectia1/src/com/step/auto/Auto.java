@@ -30,6 +30,3 @@ public class Auto {
         fuelQuantity += quantity;
     }
 }
-
-
-// youtube 1.47

@@ -9,27 +9,23 @@
  *  Operațiile de introducere de la tastatură trebuie să fie executate în App.
  */
 
-
-
 package com.step.ex4.application;
 
-import java.util.Scanner;
 import com.step.ex4.comparator.NumbersComparator;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-
         Scanner compar = new Scanner(System.in);
-
-        System.out.println("Introdu a: ");
-        int numb1 = compar.nextInt();
-        System.out.println("Introdu b: ");
+        System.out.println("Introdu primul numar: ");
+        int numb1 = compar.nextInt();1
+        System.out.println("Introdu al doilea numar: ");
         int numb2 = compar.nextInt();
 
-        NumbersComparator NC = new NumbersComparator();
-        System.out.println("MAximul: "+NC.maxim(numb1,numb2));
-        System.out.println("Minimul: "+NC.minim(numb1,numb2));
+        NumbersComparator NumbCompar = new NumbersComparator();
+        System.out.println("Maximul: "+NumbCompar.maxim(numb1,numb2));
+        System.out.println("Minimul: "+NumbCompar.minim(numb1,numb2));
     }
 }
