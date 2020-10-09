@@ -24,7 +24,6 @@ public class Main {
         System.out.println("introdu primul numar");
         double numb2 = num2.nextDouble();
 
-        Calculator calculeaza = new Calculator();
         System.out.println(numb1 + " + "+ numb2 + " = " + Calculator.suma(numb1,numb2));
         System.out.println(numb1 + " - "+ numb2 + " = " + Calculator.scad(numb1,numb2));
         System.out.println(numb1 + " * "+ numb2 + " = " + Calculator.multiple(numb1,numb2));
