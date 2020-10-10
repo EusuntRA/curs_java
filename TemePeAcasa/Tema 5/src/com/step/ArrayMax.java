@@ -28,8 +28,6 @@ public class ArrayMax {
         }
         System.out.println("Elementul maxim: " + maxElement);
 
-
-
         System.out.println("Elementul minim: " + minElement);
     }
 }

@@ -13,19 +13,20 @@
  */
 
     package com.step.model;
+    public class Employee {
+        public String name;
+        public String surname;
+        public String birthdate;
 
-public class Employee {
-    public String name;
-    public String surname;
-    public String birthdate;
+        public void Person() { }
 
-    public void Person() { }
-    public String Person(String name, String surname)
-    {
-        System.out.println("ma numesc " + name + " " + surname);
-    }
-    public String Person(String name, String surname,String birthdate)
-    {
-        System.out.println("ma numesc " + name + " " + surname + " si m-am nascut pe " + birthdate);
-    }
+        public void Person(String name, String surname)
+        {
+            System.out.println("ma numesc " + name + " " + surname);
+        }
+
+        public void Person(String name, String surname,String birthdate)
+        {
+            System.out.println("ma numesc " + name + " " + surname + " si m-am nascut pe " + birthdate);
+        }
 }
