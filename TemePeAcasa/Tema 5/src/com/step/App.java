@@ -12,7 +12,6 @@
  * cu 3 parametri
  */
 
-
 package com.step;
 
 public class App {
