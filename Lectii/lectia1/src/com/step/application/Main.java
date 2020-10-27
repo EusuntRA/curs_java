@@ -8,6 +8,12 @@ import java.util.Random; //import pentru a declara un numar random
 public class Main {
 
     public static void main(String[] args) {
+
+        String unString;
+        unString = "trali vali";
+        unString = "trei sandale";
+System.out.println(unString);
+
         // Test test = new Test();
         Auto aClass = new Auto();
         aClass.doors = 3;

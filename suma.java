@@ -5,13 +5,10 @@ While
 Do while
 */
 
-public class Suma{
+public class unArraydenume{
     public static void main(String[] args) {
-        int num=5,contor=num/num,suma=0;
-        while(contor<=num){
-            suma+=contor;
-            contor++;
-        };
-        System.out.println("Suma primelor "+num+" numere reale este:"+suma);
+        String[] students - {"Anderi","Vasile","null"};
+        System.out.println(students[5].length());
     }
+
 }

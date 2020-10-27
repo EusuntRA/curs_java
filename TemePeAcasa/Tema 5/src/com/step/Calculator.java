@@ -20,7 +20,6 @@ class Calculator {
                 return (num1 + num2);
             }
 
-
             public static int min(int num1, int num2) {
                 return (num1 - num2);
             }
@@ -34,7 +33,6 @@ class Calculator {
                 return (num1 - num2);
             }
 
-
             public static int mult(int num1, int num2) {
                 return (num1 * num2);
             }
@@ -47,7 +45,6 @@ class Calculator {
             public static double mult(double num1, int num2) {
                 return (num1 * num2);
             }
-
 
             public static int divi(int num1, int num2) {
                 return (num1 / num2);
